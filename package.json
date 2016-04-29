@@ -1,12 +1,15 @@
 {
-  "name": "angular2-starter",
-  "version": "0.3.5",
-  "author": "Antony Budianto",
-  "description": "Angular 2 Starter with Gulp, Bower, Karma, Jasmine, Protractor using SystemJS",
+  "name": "petitfour",
+  "version": "0.0.1",
+  "author": "Leonardo Almeida",
+  "description": "Petit Four app para ajudar no seu francês",
   "main": "index.html",
+  "engines" : {
+    "node" : "~5.6.0"
+  },
   "repository": {
     "type": "git",
-    "url": "https://github.com/antonybudianto/angular2-starter.git"
+    "url": "https://github.com/leoalmeida/petitfour.git"
   },
   "scripts": {
     "postinstall": "typings install",
@@ -28,7 +31,7 @@
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/antonybudianto/angular2-starter/issues"
+    "url": "https://github.com/leoalmeida/petitfour/issues"
   },
   "dependencies": {
     "angular2": "2.0.0-beta.16",
